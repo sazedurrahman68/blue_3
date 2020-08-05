@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*header start here*/
+header{
+	background-color: #121B2A;
+}
+.wrapper{
+	width: 80%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo{
+	margin: 10px 0px;
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	margin-top: 50px;
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	margin: 10px 8px;
+	list-style-type: none;
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	transition: 0.5s;
+}
+.menu ul li:last-child{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+/*header ends here*/
+/*banneer start here*/
+.banner{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	/*-webkit-background-size: cover;*/
+	background-size: cover;
+	background-position: center;
+}
+.b_content{
+	width: 50%;
+	margin-top: 100px;
+	margin-bottom: 80px;
+	/*border: 1px solid red;*/
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size: 33px;
+	font-weight: 400;
+	color: white;
+}
+.b_content h2{
+	font-family: sans-serif;
+	font-size:32px;
+	font-weight: 600;
+	color: #0078BD;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size:16px;
+	font-weight: 400;
+	color: white;
+	line-height: 25px;
+	word-spacing: 1px;
+}
+.b_content button{
+	height: 45px;
+	width: 175px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	color: black;
+	text-transform: uppercase;
+	transition: 0.5s
+}
+.b_content button:hover{
+	color: #0078BD;
+}
+/*banneer ends here*/
+/*service start here*/
+.service{
+	background-color: #121B2A;
+}
+.single_service{
+	margin-top: 20px;
+	margin-bottom: 15px;
+	margin-right: 5%;
+	float: left;
+	width: 28%;
+	/*border: 1px solid red;*/
+}
+.top{
+	overflow: hidden;
+}
+.t_image{
+	width: 25%;
+	float: left;
+}
+.t_image img{
+	width: 100%;
+}
+.t_text{
+	margin-top: 12px;
+	width: 70%;
+	float: right;
+}
+.t_text h2{
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+}
+.t_text h3{
+	text-transform: capitalize;
+	font-family: sans-serif;
+	font-size: 19px;
+	font-weight: 600;
+	color: #0078BD;
+}
+.bottom{
+	margin-top: 10px;
+}
+.bottom p{
+	color: white;
+	text-align: justify;
+	line-height: 20px;
+/*	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	color: white;*/
+}
+
+/*service ends here*/
+
+
+
+
+
